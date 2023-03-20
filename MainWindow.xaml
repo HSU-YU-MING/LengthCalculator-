@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Margin="115,41,0,0" VerticalAlignment="Top" Click="btnAllClear_Click"/>
+        <Label Content="公尺" HorizontalAlignment="Left" Margin="310,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,1.475" Height="42" Width="90" FontSize="14"/>
+        <Label Content="英吋" HorizontalAlignment="Left" Margin="109,194,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,1.475" Height="43" Width="92" FontSize="14"/>
+        <Label Content="公里" HorizontalAlignment="Left" Margin="486,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,1.475" Height="42" Width="90" FontSize="14"/>
+        <Label Content="英呎" HorizontalAlignment="Left" Margin="315,194,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,1.475" Height="43" Width="90" FontSize="14"/>
+        <Label Content="碼" HorizontalAlignment="Left" Margin="490,194,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,1.475" Height="43" Width="91" FontSize="14"/>
+        <TextBox x:Name="txtIn" HorizontalAlignment="Left" Margin="109,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtIn_TextChanged" KeyUp="txtIn_KeyUp"/>
+        <TextBox x:Name="txtM" HorizontalAlignment="Left" Margin="310,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtM_KeyUp"/>
+        <TextBox x:Name="txtFt" HorizontalAlignment="Left" Margin="310,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtFt_KeyUp"/>
+        <TextBox x:Name="txtKM" HorizontalAlignment="Left" Margin="486,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtKM_KeyUp"/>
+        <TextBox x:Name="txtYard" HorizontalAlignment="Left" Margin="486,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtYard_TextChanged" KeyUp="txtYard_KeyUp"/>
+        <Label Content="公分" HorizontalAlignment="Left" Margin="109,79,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,1.475" Height="42" Width="90" FontSize="14"/>
+        <TextBox x:Name="txtCM" HorizontalAlignment="Left" Margin="109,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyUp="txtCM_KeyUp"/>
+        <Label Content="說明文字" HorizontalAlignment="Left" Margin="154,278,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.005,1.475" Height="42" Width="185" FontSize="20"/>
+        <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Margin="154,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
     </Grid>
 </Window>
